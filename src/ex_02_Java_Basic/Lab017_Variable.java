@@ -5,6 +5,8 @@ public class Lab017_Variable {
 
         int age = 76;
         age= age+1;
+        age = 76;
+        System.out.println(age);
 
     }
 }
