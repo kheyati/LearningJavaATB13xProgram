@@ -1,9 +1,11 @@
-package ex_05_TypeCasting;
+package Tasks;
 
 import java.util.Scanner;
 
 public class Task16June {
     public static void main(String[] args) {
+
+        // validate the 3 sides of a triangle
         // take user input for 3 sides
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter side 1");
