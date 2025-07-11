@@ -20,28 +20,28 @@ public class task1_june17 {
 
             System.out.print("Vowels: ");
             // Print vowels
-            for (int i = 0; i < lowerInput.length(); i++) {
-                char ch = lowerInput.charAt(i);
-                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                    System.out.print(ch + " ");
+            for (int i = 0; i < lowerInput.length(); i++) { //because it is index it starts from 0 we are not using i < = lowerInput.length()
+               char ch = lowerInput.charAt(i);
+               if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                   System.out.print(ch + " ");
                 }
             }
-            System.out.println();
+            System.out.println();// next line to print consonants
 
             System.out.print("Consonants: ");
             // Print consonants using else block
             for (int i = 0; i < lowerInput.length(); i++) {
                 char ch = lowerInput.charAt(i);
-                if (Character.isLetter(ch)) {
+                //if (Character.isLetter(ch)) {
                     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                        // vowel, do nothing here
+                        // do nothing
                     } else {
                         // consonant
-                        System.out.print(ch + " ");
+                        System.out.print( ch + " ");
                     }
-                }
+
             }
-            System.out.println();
+            //System.out.println();
         }
     }
 }

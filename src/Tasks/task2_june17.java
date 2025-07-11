@@ -21,8 +21,8 @@ public class task2_june17 {
             // Check palindrome
             boolean isPalindrome = true;
             int n = processed.length();
-            for (int i = 0; i < n / 2; i++) {
-                if (processed.charAt(i) != processed.charAt(n - 1 - i)) {
+            for (int i = 0; i < n / 2; i++) {// n/2 because we will check only till first half of the characters coz after halfway we will just be checking the same characters again
+                if (processed.charAt(i) != processed.charAt(n - 1 - i)) { // n - 1 - i will compare when i = 0-> first & last char; when i=1-> second and second last character
                     isPalindrome = false;
                     break;
                 }
