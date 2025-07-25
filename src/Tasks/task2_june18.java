@@ -6,11 +6,11 @@ public class task2_june18 {
     public static void main(String[] args) {
         //Write a program that calculates and displays the letter grade for a given numerical score
         // (e.g., A, B, C, D, or F) based on the following grading scale:
-//        A: 90-100 >=90<=100
-//        B: 80-89 >=80<=89
-//        C: 70-79
-//        D: 60-69
-//        F: 0-59
+//        A: 90-100 >= 90
+//        B: 80-89 >=80
+//        C: 70-79 >=70
+//        D: 60-69 >=60
+//        F: 0-59 >=50
         // take input using scanner class
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the score ");
