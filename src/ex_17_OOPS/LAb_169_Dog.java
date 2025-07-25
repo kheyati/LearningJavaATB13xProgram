@@ -10,5 +10,4 @@ public class LAb_169_Dog {
         System.out.println("Barking");
     }
 
-
 }
