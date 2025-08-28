@@ -7,7 +7,7 @@ public class Lab227_Try_Catch_Finally {
         try {
             int c = 10/b;
         } catch (Exception e) {
-            System.out.println(e.getMessage());;
+            System.out.println (e.getMessage());
         }
         //
         finally {
